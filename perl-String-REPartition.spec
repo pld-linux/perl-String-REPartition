@@ -44,7 +44,7 @@ bêdzie pasowa³o do 60 ³añcuchów i nie pasowa³o do pozosta³ych 40.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
