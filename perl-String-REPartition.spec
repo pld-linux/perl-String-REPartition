@@ -46,7 +46,7 @@ bêdzie pasowa³o do 60 ³añcuchów i nie pasowa³o do pozosta³ych 40.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
