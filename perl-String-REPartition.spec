@@ -4,7 +4,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	REPartition
-Summary:	String::REPartition - Generates a regex to partition a data set
+Summary:	String::REPartition - generates a regex to partition a data set
 Summary(pl):	String::REPartition - generowanie wyra¿enia regularnego do podzia³u zbioru danych
 Name:		perl-String-REPartition
 Version:	1.0
