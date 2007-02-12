@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	REPartition
 Summary:	String::REPartition - generates a regex to partition a data set
-Summary(pl):	String::REPartition - generowanie wyra¿enia regularnego do podzia³u zbioru danych
+Summary(pl.UTF-8):   String::REPartition - generowanie wyraÅ¼enia regularnego do podziaÅ‚u zbioru danych
 Name:		perl-String-REPartition
 Version:	1.4
 Release:	4
@@ -32,16 +32,16 @@ inputs were '0.6' and a reference to a list of 100 strings, the
 returned regex would match 60 of the strings in the list and not match
 the other 40.
 
-%description -l pl
-Ten modu³ eksportuje jedn± funkcjê - make_partition_re. Przyjmuje ona
-jako pierwszy argument liczbê miêdzy 0 a 1, reprezentuj±c± podzia³
-procentowy, a jako drugi argument referencjê do listy ³añcuchów.
-Zwraca wyra¿enie regularne, które gwarantuje dopasowanie do takiej
-czê¶ci ³añcuchów w li¶cie, jaka zosta³a podana jako pierwszy argument.
-Co wiêcej, zwrócone wyra¿enie gwarantuje, ¿e *nie* bêdzie pasowaæ do
-reszty ³añcuchów z listy. To oznacza, ¿e np. je¶li parametrami by³y
-0.6 i referencja do listy 100 ³añcuchów, zwrócone wyra¿enie regularne
-bêdzie pasowa³o do 60 ³añcuchów i nie pasowa³o do pozosta³ych 40.
+%description -l pl.UTF-8
+Ten moduÅ‚ eksportuje jednÄ… funkcjÄ™ - make_partition_re. Przyjmuje ona
+jako pierwszy argument liczbÄ™ miÄ™dzy 0 a 1, reprezentujÄ…cÄ… podziaÅ‚
+procentowy, a jako drugi argument referencjÄ™ do listy Å‚aÅ„cuchÃ³w.
+Zwraca wyraÅ¼enie regularne, ktÃ³re gwarantuje dopasowanie do takiej
+czÄ™Å›ci Å‚aÅ„cuchÃ³w w liÅ›cie, jaka zostaÅ‚a podana jako pierwszy argument.
+Co wiÄ™cej, zwrÃ³cone wyraÅ¼enie gwarantuje, Å¼e *nie* bÄ™dzie pasowaÄ‡ do
+reszty Å‚aÅ„cuchÃ³w z listy. To oznacza, Å¼e np. jeÅ›li parametrami byÅ‚y
+0.6 i referencja do listy 100 Å‚aÅ„cuchÃ³w, zwrÃ³cone wyraÅ¼enie regularne
+bÄ™dzie pasowaÅ‚o do 60 Å‚aÅ„cuchÃ³w i nie pasowaÅ‚o do pozostaÅ‚ych 40.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
