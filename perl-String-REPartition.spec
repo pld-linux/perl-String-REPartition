@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	REPartition
 Summary:	String::REPartition - generates a regex to partition a data set
-Summary(pl.UTF-8):   String::REPartition - generowanie wyrażenia regularnego do podziału zbioru danych
+Summary(pl.UTF-8):	String::REPartition - generowanie wyrażenia regularnego do podziału zbioru danych
 Name:		perl-String-REPartition
 Version:	1.4
 Release:	4
