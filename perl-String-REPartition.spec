@@ -8,15 +8,19 @@
 Summary:	String::REPartition - generates a regex to partition a data set
 Summary(pl.UTF-8):	String::REPartition - generowanie wyrażenia regularnego do podziału zbioru danych
 Name:		perl-String-REPartition
-Version:	1.4
-Release:	4
+Version:	1.6
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/AVIF/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e3e4ea37150336fd3fdb38cbbe67d62e
+# Source0-md5:	11b32cffa1b03fc825b467261fa6b883
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Test-Pod
+BuildRequires:	perl-Test-Pod-Coverage
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
