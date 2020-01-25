@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	String
 %define		pnam	REPartition
 Summary:	String::REPartition - generates a regex to partition a data set
